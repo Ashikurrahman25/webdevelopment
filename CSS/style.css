@@ -1,15 +1,21 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    font-size: 40px;
+}
+h2{
     font-size: 30px;
 }
 p{
     text-align: justify;
+    color: dimgray;
+    margin-right: 40px;
 }
 
 .blue{
-    color:blueviolet
+    color:slateblue
 }
 
 .half-width{
@@ -17,9 +23,77 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+
 }
+
 
 .half-width img{
     width: 100%;
 }
 
+.half-width-bottom img{
+    width: 100%;
+}
+.dream-img{
+    float:right;
+    width: 50px;
+}
+.top{
+    background-image: url(Images/BG.png);
+    background-repeat: no-repeat;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, slateblue,blueviolet);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.dream-sec{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    height: 80%;
+    background-color: white;
+}
+
+.experience{
+    background-image: url(Images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+#game-programmer{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,slateblue,blueviolet);
+    border-image-slice: 1;
+}
+
+#ar-programmer{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,slateblue,blueviolet);
+    border-image-slice: 1;
+}
+
+
+#experience-header{
+    margin-left: 3%;
+    padding-left: 2%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
